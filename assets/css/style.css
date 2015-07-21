@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    background-color: #fff;
+    color: #444;
+    font-family: Verdana;
+    font-feature-settings: "'liga' 1";
+    font-kerning: auto;
+    font-style: normal;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+    word-spacing: 0;
+}
+.head {
+    background: url("../img/head-bg.jpg") no-repeat center #434343;
+    height: 311px;
+    text-align: center;
+}
+.logo {
+    background: url("../img/logo.png") no-repeat;
+    width: 265px;
+    height: 93px;
+    display: inline-block;
+    margin: 5px;
+}
+.clear-fix {
+    clear: both;
+}
+div.auth {
+    float: right;
+    padding: 10px;
+    margin: 0 10px;
+    background: rgba(255,255,255,.5);
+    border-radius: 5px;
+    box-shadow: -2px 2px 2px rgba(0,0,0,.3);
+}
+.auth a {
+    color: #000;
+    text-decoration: none;
+}
+.button {
+    background: url("../img/circle-button.png");
+    width: 133px;
+    height: 133px;
+    display: inline-block;
+    margin: 10px;
+}
+.button a {
+    display: inline-block;
+    width: 100%;
+    height: 40%;
+    padding-top: 60%;
+    color: #000;
+    text-decoration: none;
+}
+.button.calendar a {
+    background: url("../img/calendar.png") no-repeat center 20px;
+}
+.button.form a {
+    background: url("../img/form.png") no-repeat center 20px;
+}
+.button.conference a {
+    background: url("../img/conference.png") no-repeat center 20px;
+}
+.button.article a {
+    background: url("../img/article.png") no-repeat center 20px;
+}
+.button.feedback a {
+    background: url("../img/feedback.png") no-repeat center 20px;
+}
+.content {
+    margin: 20px;
+    text-align: center;
+}
+.content .news {
+    background: rgba(0,0,0,.05);
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 5px;
+    font-size: 0.8em;
+    margin: 5px;
+}
+.content .news p {
+    margin: 0;
+}
+.content .feedback {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: right;
+}
+.content .feedback label {
+    display: block;
+    margin: 0 0 20px 0;
+}
+.content .address {
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    vertical-align: top;
+}
+.register label {
+    display: block;
+    margin: 5px;
+}
+.content .register label.hidden {
+    display: none;
+}
+.register label.status-docl {
+    display: block;
+}
+.conference .activities {
+    display: inline-block;
+    width: 200px;
+    list-style: none;
+    margin: 10px; padding: 0;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.4);
+    background: rgba(0,0,0,.2);
+}
+.conference .activities li {
+    margin: 10px;
+}
+.activities a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    text-decoration: none;
+}
+
+table.calendar td {
+    background: rgba(0,0,0,.2);
+    border-radius: 5px;
+}
+.auth label,
+.registration label {
+    display: block;
+    margin: 5px;
+}
